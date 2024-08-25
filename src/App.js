@@ -8,7 +8,7 @@ const App = () => {
   const [movies, setMovies] = useState([]);
 
   const handleSearch = (query) => {
-    fetch(`http://www.omdbapi.com/?s=${query}&apikey=8417f37d`)
+    fetch(`https://www.omdbapi.com/?s=${query}&apikey=8417f37d`)
       .then(response => response.json())
       .then(data => {
         if (data.Search) {
