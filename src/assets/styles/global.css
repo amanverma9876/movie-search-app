@@ -1,0 +1,41 @@
+/* src/assets/styles/global.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: var(--button-bg-color);
+  color: #9c2424;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+input {
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  width: 80%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
